@@ -6,3 +6,10 @@ export const Container = styled.View`
   background: #8b10ae;
   padding-top: ${getStatusBarHeight}px;
 `;
+
+export const Content = styled.View`
+  flex: 1;
+  max-height: 400px;
+  justify-content: center;
+  z-index: 5;
+`;
