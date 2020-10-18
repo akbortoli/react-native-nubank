@@ -10,6 +10,22 @@ export default function Header() {
           <Icon name="person-add" size={24} color="#FFF" />
           <TabText>Share with Friends</TabText>
         </TabItem>
+        <TabItem>
+          <Icon name="chat-bubble-outline" size={24} color="#FFF" />
+          <TabText>Collect</TabText>
+        </TabItem>
+        <TabItem>
+          <Icon name="arrow-downward" size={24} color="#FFF" />
+          <TabText>Deposit</TabText>
+        </TabItem>
+        <TabItem>
+          <Icon name="arrow-upward" size={24} color="#FFF" />
+          <TabText>Pay</TabText>
+        </TabItem>
+        <TabItem>
+          <Icon name="lock" size={24} color="#FFF" />
+          <TabText>Block Card</TabText>
+        </TabItem>
       </TabWrapper>
     </Container>
   );
