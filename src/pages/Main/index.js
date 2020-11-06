@@ -52,7 +52,7 @@ export default function Main() {
         offset = 0;
       }
 
-      Animated.timing(translationY, {
+      Animated.timing(translateY, {
         toValue: opened ? 380 : 0,
         duration: 200,
         useNativeDriver: true,
@@ -92,13 +92,12 @@ export default function Main() {
                 <Icon name="visibility-off" size={28} color="#666" />
               </CardHeader>
               <CardContent>
-                <Title>Saldo disponível</Title>
-                <Description>R$ 197.611,65</Description>
+                <Title>Available</Title>
+                <Description>$10,728.52</Description>
               </CardContent>
               <CardFooter>
                 <Annotation>
-                  Transferência de R$ 20,00 recebida de Diego Schell Fernandes
-                  hoje às 06:00h
+                  Deposit of $20.00 received from Daiane Ramos today at 06:00am.
                 </Annotation>
               </CardFooter>
             </Card>
